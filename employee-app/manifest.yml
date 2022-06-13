@@ -1,0 +1,7 @@
+---
+applications:
+  - name: employee
+    path: target/employee-app-0.0.1-SNAPSHOT.jar
+    services:
+      - employee-database
+      - applogs-employee
